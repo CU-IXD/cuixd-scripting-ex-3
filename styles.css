@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
+.about {
+  flex: 1;
+}
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: #fdf2ef;
+  color: #401306;
+  margin: 0 auto;
+  padding: 0;
+  width: 768px;
+}
+h1 {
+  font-size: 3.7em;
+  margin: 0;
+  padding: 33px 16px 0;
+  text-align: center;
+  background-color: rgba(64, 19, 6, 0.8);
+  color: #fdf2ef;
+  height: 112px;
+  box-sizing: border-box;
+}
+h1 small {
+  font-size: 0.62162162em;
+}
+h2 {
+  font-size: 2.3em;
+  line-height: 1.39130435em;
+}
+header {
+  background: url("images/banner.png") left top no-repeat;
+  padding-top: 384px;
+}
+html {
+  background-color: #401306;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 16px;
+  display: flex;
+}
+.menu {
+  flex: 2;
+  margin-left: 32px;
+}
+.menu h2 {
+  background-color: #ffc374;
+  padding: 8px 10px;
+  margin: 0;
+}
+.menu table {
+  width: 100%;
+}
+.menu tr {
+  border: none;
+}
+.menu td {
+  border-top: 1px solid #fdf2ef;
+  border-collapse: collapse;
+  padding: 13px 10px;
+  font-size: 1.7em;
+}
+.menu td.price {
+  color: #401306;
+  background-color: #e5710c;
+}
+.menu td.name {
+  color: #fdf2ef;
+  background-color: #401306;
+}
+p {
+  font-size: 1.4em;
+  line-height: 1.42857143em;
+  margin: 0 0 10px;
+}
+p.lead {
+  font-size: 2.3em;
+  line-height: 1.56521739em;
+}
+/*# sourceMappingURL=styles.css.map */
